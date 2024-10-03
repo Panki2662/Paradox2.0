@@ -1,0 +1,84 @@
+.Contenedor {
+
+    display: grid; /* activa la creacion de listas ( primero va eso ) */
+    grid-template-columns: 1fr 4fr; /* Define el espacio de las lista*/
+    background-color:rgb(236, 194, 78);
+}
+
+aside {
+
+    padding: 2rem;  /* El padding ayuda a mejorar la presentación visual al evitar que el contenido esté demasiado cerca de los bordes del elemento */
+    color: aliceblue;
+
+
+    position: sticky;
+    top: 0;               /*Profundizar esto*/
+    height: 100vh;
+
+
+    display: flex;   /* Controla cómo un elemento se presenta y se comporta en el flujo del documento. */
+    flex-direction: column;  /* Lo pone en columnas*/
+    justify-content:space-between; /* Define la separacion*/
+
+}
+
+main {
+
+    background-color: rgb(17, 17, 17);
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 3rem;
+    padding: 3rem;
+    
+
+
+}
+
+.logo {
+
+    font-weight: 900;  /*Grosor de la fuente*/
+    font-size: 1.3rem; /*Tamaño de la fuente*/
+
+}
+
+
+
+.Titulo{
+
+    color:rgb(249, 249, 250);
+    margin: 2rem;
+
+}
+
+.Articulos{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 3rem;
+
+}
+
+.Imagen{
+
+    border-radius: 2rem;
+
+}
+
+.Productos-Detalles{
+
+    background-color: rgb(249, 249, 250);
+    color: rgb(139, 94, 94);
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 3rem;
+    padding: 3rem;
+
+}
+
+#fotocambia {
+    
+    width: 300px;
+    height: 300px;
+    
+}
